@@ -14,7 +14,7 @@ $(EBIN)/%.beam: %.erl
 
 all: $(TARGETS)
  
-
+test: $(TARGETS)
    
 clean:
 	\rm -f $(CODE) 
